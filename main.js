@@ -1,6 +1,6 @@
-import * as THREE from './three.module.js';
-import { OrbitControls } from './OrbitControls.js';
-import { GLTFLoader } from './GLTFLoader.js';
+import * as THREE from './src/three.module.js';
+import { OrbitControls } from './src/OrbitControls.js';
+import { GLTFLoader } from './src/GLTFLoader.js';
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
